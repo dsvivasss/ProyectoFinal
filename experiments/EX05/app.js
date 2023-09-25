@@ -4,11 +4,9 @@ const helmet = require('helmet')
 const Question = require('./models/Question.js')
 const Option = require('./models/Option.js')
 const questions = require('./questions.json');
-const { Op } = require('sequelize')
 require('dotenv').config();
 
 const app = express()
-const secret = process.env.JWT_SECRET
 
 app.listen(3000)
 app.use(express.json())
