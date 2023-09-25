@@ -13,7 +13,7 @@ const users = require('./users.json')
 const app = express()
 const secret = process.env.JWT_SECRET
 
-// app.listen(3000)
+app.listen(3000)
 app.use(express.json())
 app.use(morgan('tiny'))
 app.use(helmet())
@@ -56,18 +56,12 @@ app.post('/login', (req, res) => {
 
 })
 
-app.post('/private', (req, res) => {
-    return res.json({
-        message: 'stuff written'
-    })
-})
-
-app.get('/private', (req, res) => {
-    res.json({
-        message: 'Stuff read'
+app.post('/verify', (req, res) => {
+    return res.status(200).json({
+        message: 'Valid token and permissions'
     })
 })
 
 console.log('Server on port 3000')
 
-module.exports.handler = serverless(app)
+// module.exports.handler = serverless(app)

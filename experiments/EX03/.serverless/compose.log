@@ -1,0 +1,58 @@
+
+Deploying to stage dev
+auth › waiting
+project › waiting
+auth › deploying
+auth › Running "serverless deploy --stage dev"
+auth › Deploying nodejs-aws-lambda to stage dev (us-east-1)
+auth › ✔ Service deployed to stack nodejs-aws-lambda-dev (90s)
+auth › endpoints:
+auth ›   ANY - https://5sl6rous58.execute-api.us-east-1.amazonaws.com/dev
+auth ›   ANY - https://5sl6rous58.execute-api.us-east-1.amazonaws.com/dev/{proxy+}
+auth › functions:
+auth ›   app: nodejs-aws-lambda-dev-app (2.7 MB)
+auth › Need a faster logging experience than CloudWatch? Try our Dev Mode in Console: run "serverless dev"
+auth › Running "serverless info --verbose --stage dev"
+auth › To ensure safe major version upgrades ensure "frameworkVersion" setting in service configuration (recommended setup: "frameworkVersion: ^3.35.2")
+auth › service: nodejs-aws-lambda
+auth › stage: dev
+auth › region: us-east-1
+auth › stack: nodejs-aws-lambda-dev
+auth › endpoints:
+auth ›   ANY - https://5sl6rous58.execute-api.us-east-1.amazonaws.com/dev
+auth ›   ANY - https://5sl6rous58.execute-api.us-east-1.amazonaws.com/dev/{proxy+}
+auth › functions:
+auth ›   app: nodejs-aws-lambda-dev-app
+auth › 
+auth › Stack Outputs:
+auth ›   AppLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:051159361932:function:nodejs-aws-lambda-dev-app:12
+auth ›   ServiceEndpoint: https://5sl6rous58.execute-api.us-east-1.amazonaws.com/dev
+auth ›   ServerlessDeploymentBucketName: nodejs-aws-lambda-dev-serverlessdeploymentbucket-1napn5m9b97q6
+auth › deployed
+project › deploying
+project › Running "serverless deploy --stage dev"
+project › Deploying nodejs-aws-lambda to stage dev (us-east-1)
+project › ✔ Service deployed to stack nodejs-aws-lambda-dev (44s)
+project › endpoints:
+project ›   ANY - https://5sl6rous58.execute-api.us-east-1.amazonaws.com/dev
+project ›   ANY - https://5sl6rous58.execute-api.us-east-1.amazonaws.com/dev/{proxy+}
+project › functions:
+project ›   app: nodejs-aws-lambda-dev-app (2.9 MB)
+project › Need a faster logging experience than CloudWatch? Try our Dev Mode in Console: run "serverless dev"
+project › Running "serverless info --verbose --stage dev"
+project › To ensure safe major version upgrades ensure "frameworkVersion" setting in service configuration (recommended setup: "frameworkVersion: ^3.35.2")
+project › service: nodejs-aws-lambda
+project › stage: dev
+project › region: us-east-1
+project › stack: nodejs-aws-lambda-dev
+project › endpoints:
+project ›   ANY - https://5sl6rous58.execute-api.us-east-1.amazonaws.com/dev
+project ›   ANY - https://5sl6rous58.execute-api.us-east-1.amazonaws.com/dev/{proxy+}
+project › functions:
+project ›   app: nodejs-aws-lambda-dev-app
+project › 
+project › Stack Outputs:
+project ›   AppLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:051159361932:function:nodejs-aws-lambda-dev-app:13
+project ›   ServiceEndpoint: https://5sl6rous58.execute-api.us-east-1.amazonaws.com/dev
+project ›   ServerlessDeploymentBucketName: nodejs-aws-lambda-dev-serverlessdeploymentbucket-1napn5m9b97q6
+project › deployed

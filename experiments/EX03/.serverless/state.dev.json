@@ -1,0 +1,27 @@
+{
+  "service": {
+    "id": "f5brehq"
+  },
+  "components": {
+    "auth": {
+      "state": {
+        "detectedFrameworkVersion": "3.35.2"
+      },
+      "outputs": {
+        "AppLambdaFunctionQualifiedArn": "arn:aws:lambda:us-east-1:051159361932:function:nodejs-aws-lambda-dev-app:12",
+        "ServiceEndpoint": "https://5sl6rous58.execute-api.us-east-1.amazonaws.com/dev",
+        "ServerlessDeploymentBucketName": "nodejs-aws-lambda-dev-serverlessdeploymentbucket-1napn5m9b97q6"
+      }
+    },
+    "project": {
+      "state": {
+        "detectedFrameworkVersion": "3.35.2"
+      },
+      "outputs": {
+        "AppLambdaFunctionQualifiedArn": "arn:aws:lambda:us-east-1:051159361932:function:nodejs-aws-lambda-dev-app:13",
+        "ServiceEndpoint": "https://5sl6rous58.execute-api.us-east-1.amazonaws.com/dev",
+        "ServerlessDeploymentBucketName": "nodejs-aws-lambda-dev-serverlessdeploymentbucket-1napn5m9b97q6"
+      }
+    }
+  }
+}
